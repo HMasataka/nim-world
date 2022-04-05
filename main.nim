@@ -1,1 +1,4 @@
-echo "Hello World"
+proc main =
+    echo "Hello World"
+
+main()
