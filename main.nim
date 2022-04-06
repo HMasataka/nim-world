@@ -1,4 +1,5 @@
-proc main =
-    echo "Hello World"
+proc toString(x:bool): string =
+    if x: return "true"
+    else: return "false"
 
-main()
+echo toString(true)
